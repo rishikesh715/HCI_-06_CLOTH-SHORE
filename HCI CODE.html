@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop Sphere</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #333;
+    }
+    header {
+      width: 100%;
+      background-color: #333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    nav a:hover {
+      background-color: #555;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+      width: 100%;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2rem;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      margin-top: 1rem;
+    }
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      margin: 2rem auto;
+      max-width: 1200px;
+      justify-content: center;
+    }
+    .product-card {
+      width: 250px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      text-align: center;
+    }
+    .product-card img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    .product-card h3 {
+      margin: 1rem 0;
+    }
+    .product-card p {
+      color: #777;
+      margin-bottom: 1rem;
+    }
+    .product-card button {
+      padding: 0.5rem 1rem;
+      margin-bottom: 1rem;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .product-card button:hover {
+      background-color: #555;
+    }
+    footer {
+      width: 100%;
+      padding: 1rem;
+      background-color: #333;
+      color: white;
+      text-align: center;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Shop Sphere</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Men's Wear</a>
+      <a href="#">Women's Wear</a>
+      <a href="#">Kids' Wear</a>
+      <a href="#">Cosmetics</a>
+      <a href="#">Footwear</a>
+      <a href="#">Furniture</a>
+      <a href="#">Electronics</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img
+src=https://okcredit-blog-images-prod.storage.googleapis.com/2021/05/Clothing-Line1--1-.jpg
+    <h2>Discover the Latest Fashion & Gadgets</h2>
+  </section>
+
+  <!-- Featured Products Section -->
+  <section class="products">
+    <!-- Sample Products for Men's Wear -->
+    <div class="product-card">
+    <img
+src="https://n.nordstrommedia.com/id/d3ed26b6-965e-464b-810d-7203410c0d0c.jpeg"
+      <h3>Men's Jacket</h3>
+      <p>$49.99</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://img.kwcdn.com/product/1d18fce4588/5d18e645-1aa2-4fe8-9497-113e39da41ea_800x800.jpeg.a.jpg"
+      <h3>Men's Shoes</h3>
+      <p>$69.99</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- Sample Products for Women's Wear -->
+    <div class="product-card">
+      <img src="https://i5.walmartimages.com/asr/9f129ab4-deda-4830-8764-0aa25374c5d2_1.a21969f0e4777eb09701ebb8b7268544.jpeg"
+      <h3>Women's Dress</h3>
+      <p>$59.99</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://theluxauthority.com/wp-content/uploads/2018/07/prada-handbag.jpg"
+      <h3>Handbag</h3>
+      <p>$39.99</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- Sample Products for Kids' Wear -->
+    <div class="product-card">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.f9ue7COb-2S-zcNELBSdkAHaHa&pid=Api&P=0&h=220"
+      <h3>Kids' T-shirt</h3>
+      <p>$19.99</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://i5.walmartimages.com/asr/db26011a-1847-4d19-9695-fd994d07de27.d016d38bb355dea2a2718d0d709052cb.jpeg"
+      <h3>Kids' Shoes</h3>
+      <p>$29.99</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <!-- Sample Products for Electronics -->
+    <div class="product-card">
+      <img src="https://tse2.mm.bing.net/th?id=OIP.b0XKt0spOAXI6KRR9pBifQHaFW&pid=Api&P=0&h=220"
+      <h3>Electronics</h3>
+      <p>$499.99</p>
+      <button>Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <img src="https://tse4.mm.bing.net/th?id=OIP.I8UrgvPmNZFlXuIoDRoPtAHaE8&pid=Api&P=0&h=220"
+      <h3>cosmetics</h3>
+      <p>$999.99</p>
+      <button>Add to Cart</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 Shop Sphere. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
